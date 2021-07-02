@@ -30,10 +30,7 @@ docker run --name mongoclient -p 3000:3000 --link mongodb:mongodb -d mongoclient
 ```node
 docker exec -it mongodb mongo --host localhost -u admin -p secret --authenticationDatabase admin --eval "db.getSiblingDB('herois').createUser({user: 'erickwendel', pwd:'minhasenhasecreta', roles: [{role: 'readWrite', db: 'herois'}]})"
 ```
+
 <hr />
 
-<p align="center">
-  <a href="https://github.com/FoxGreedy">
-    <img src="https://i.imgur.com/RadC5Gt.png" width="160">
-  </a>
-</p>
+<p  align="right">Made with ❤️ by <a href="https://github.com/matg0mes">matg0mes</a>.</p>
